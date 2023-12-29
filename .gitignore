@@ -1,0 +1,10 @@
+__pycache__/
+backup/
+bin/
+include/
+lib/
+lib64/
+
+.env
+logs.log
+pyvenv.cfg
