@@ -61,7 +61,7 @@ class Bot(discord.Client):
             await self.msgQueue.get()
 
             current_time = datetime.datetime.now()
-            await self.channel.send(f"> New backup created at **{current_time}**")
+            # await self.channel.send(f"> New backup created at **{current_time}**")
 
     async def listenForPanic(self):
         try:
